@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GameTreeTest
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ test01_rootNodeAtStart()
+comment3.params=
+comment3.target=void\ test02_foundAnswerAtStart()
+comment4.params=
+comment4.target=void\ test03_makeFirstYesChoice()
+comment5.params=
+comment5.target=void\ test04_checkFoundAnswerAgain()
+comment6.params=
+comment6.target=void\ test05_makeNoChoice()
+comment7.params=
+comment7.target=void\ test06_foundAnAnswerNode()
+comment8.params=
+comment8.target=void\ test07_testSaveGame()
+numComments=9

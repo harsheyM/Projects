@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Choice
+comment0.text=\r\n\ Choice\ is\ an\ enum\ to\ be\ used\ by\ users\ of\ any\ class\ that\ implements\r\n\ class\ GameOf20.\ It\ is\ used\ to\ signify\ the\ user\ entered\ input\ indicating\r\n\ a\ Yes\ or\ No\ answer.\ Sample\ code\:\r\n\r\n\ \ Choice\ userSelection\ \=\ Choice.Yes;\ //\ Can\ only\ assign\ Choice.Yes\ and\ Choice.No\r\n\r\n\ \ if(userSelection\ \=\=\ Choice.No)\r\n\ \ \ \ \ System.out.println("This\ will\ not\ be\ printed");\r\n\r\n\ \ if(userSelection\ \=\=\ Choice.Yes)\r\n\ \ \ \ \ System.out.println("This\ WILL\ be\ printed");\r\n\r\n\ @author\ mercer\r\n
+numComments=1

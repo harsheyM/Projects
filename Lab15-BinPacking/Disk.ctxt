@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Disk
+comment1.params=
+comment1.target=Disk()
+comment2.params=
+comment2.target=int\ id()
+comment3.params=size
+comment3.target=void\ addFile(int)
+comment4.params=size
+comment4.target=boolean\ canStore(int)
+comment5.params=
+comment5.target=int\ spaceLeft()
+comment6.params=other
+comment6.target=int\ compareTo(Disk)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
