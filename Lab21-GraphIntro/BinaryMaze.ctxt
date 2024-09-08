@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BinaryMaze
+comment1.params=matrix\ start\ end
+comment1.target=int\ shortestPath(int[][],\ BinaryMaze.Location,\ BinaryMaze.Location)
+comment2.params=matrix\ row\ col
+comment2.target=boolean\ isValid(int[][],\ int,\ int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
