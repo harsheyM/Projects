@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=PictureTester
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ testChromakey()
+comment2.text=this\ method\ is\ static,\ you\ don't\ need\ to\ call\ it\ on\ an\ object\ (just\ "testChromekey()")
+comment3.params=
+comment3.target=void\ testSteganography()
+comment3.text=this\ method\ is\ static,\ you\ don't\ need\ to\ call\ it\ on\ an\ object\ (just\ "testSteganography()")
+numComments=4

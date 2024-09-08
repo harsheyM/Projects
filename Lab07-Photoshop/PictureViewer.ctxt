@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PictureViewer
+comment0.text=\r\n\ A\ GUI\ to\ view\ a\ {@link\ Picture}\r\n\ GUI\ contributed\ by\ Liberty\ student\ Ben\ Wyatt,\ 2017\r\n\ with\ very\ minor\ visual\ tweaks\ by\ Mr.\ Bunn\r\n
+comment1.params=picture
+comment1.target=PictureViewer(Picture)
+comment1.text=\r\n\ Creates\ a\ PictureViewer\ with\ a\ given\ {@link\ Picture}\r\n\ @param\ picture\ The\ {@link\ Picture}\ to\ view\r\n
+comment2.params=
+comment2.target=void\ close()
+comment2.text=\r\n\ Closes\ the\ PictureViewer\r\n
+comment3.params=cursor\ color
+comment3.target=java.lang.String\ makeLabelText(java.awt.Point,\ java.awt.Color)
+numComments=4
