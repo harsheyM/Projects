@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=HuffmanCompressor
+comment1.params=file
+comment1.target=int[]\ getFrequency(java.lang.String)
+comment2.params=file
+comment2.target=int[]\ countFrequencies(java.lang.String)
+comment3.params=file\ newFile\ shortFile
+comment3.target=void\ compress(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.params=codeFile\ newFile\ shortFile
+comment4.target=void\ expand(java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=5

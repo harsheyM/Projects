@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=IMap
+comment1.params=
+comment1.target=int\ size()
+comment1.text=return\ the\ current\ number\ of\ key/value\ pairs\ in\ the\ map
+numComments=2

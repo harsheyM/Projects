@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=HuffmanTree
+comment1.params=count
+comment1.target=HuffmanTree(int[])
+comment10.params=file
+comment10.target=void\ write(java.lang.String)
+comment11.params=current\ path
+comment11.target=java.lang.String\ writeTree(Node,\ java.lang.String)
+comment2.params=
+comment2.target=void\ makeTree()
+comment3.params=cur\ next
+comment3.target=void\ addNode(int,\ java.lang.String)
+comment4.params=codeFile
+comment4.target=HuffmanTree(java.lang.String)
+comment5.params=out\ file
+comment5.target=void\ encode(BitOutputStream,\ java.lang.String)
+comment6.params=
+comment6.target=void\ genCharBitsMap()
+comment7.params=now\ path
+comment7.target=void\ genCharBitsMap(Node,\ java.lang.String)
+comment8.params=in\ file
+comment8.target=void\ decode(BitInputStream,\ java.lang.String)
+comment9.params=
+comment9.target=void\ printTree()
+numComments=12

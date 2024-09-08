@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TreePrinter
+comment0.text=\r\n\ A\ class\ used\ to\ print\ a\ binary\ tree\ of\ integers,\ for\ testing\ purposes\r\n\r\n\ Borrowed\ from\ StackOverflow\ with\ minor\ modifications\r\n\r\n\ To\ use,\ call\ the\ printNode()\ method,\ supplying\ your\ tree's\ overall\ root.\ \ Example\:\r\n\r\n\ \ \ \ TreePrinter.printNode(tree.getRoot());\r\n\r\n\ where\ tree\ is\ an\ object\ of\ your\ TreeMethods\ class,\ which\ has\ a\ getRoot()\ method\r\n
+comment1.params=root
+comment1.target=void\ printTree(Node)
+comment1.text=\r\n\ print\ the\ tree\ in\ a\ tree-like\ form\r\n\ @param\ root\ the\ overall\ root\ of\ the\ tree\r\n
+comment2.params=nodes\ level\ maxLevel
+comment2.target=void\ printNodeInternal(java.util.List,\ int,\ int)
+comment3.params=count
+comment3.target=void\ printWhitespaces(int)
+comment4.params=node
+comment4.target=int\ maxLevel(Node)
+comment5.params=list
+comment5.target=boolean\ isAllElementsNull(java.util.List)
+numComments=6
