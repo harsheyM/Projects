@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HashMapProbs
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ runProbs()
+comment3.params=a\ b
+comment3.target=java.util.HashMap\ takeBefore(java.lang.String,\ java.lang.String)
+comment4.params=s
+comment4.target=java.util.HashMap\ multiple(java.lang.String)
+comment5.params=words
+comment5.target=java.util.HashMap\ charWord(java.lang.String[])
+numComments=6

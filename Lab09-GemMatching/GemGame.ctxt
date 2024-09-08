@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=GemGame
+comment1.params=i
+comment1.target=double\ indexToX(int)
+comment2.params=x
+comment2.target=int\ xToIndex(double)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
