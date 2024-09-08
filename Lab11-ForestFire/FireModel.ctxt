@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FireModel
+comment1.params=view
+comment1.target=FireModel(FireView)
+comment2.params=x\ y
+comment2.target=void\ recursiveFire(int,\ int)
+comment2.text=\r\n\ \ \ \ \ \ \ \ recursiveFire\ method\ here\r\n
+comment3.params=x\ y
+comment3.target=boolean\ outBounds(int,\ int)
+comment4.params=
+comment4.target=void\ solve()
+numComments=5

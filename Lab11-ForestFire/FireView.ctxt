@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=FireView
+comment0.text=\r\n\ \ this\ is\ the\ View\ component\r\n
+comment1.params=mg
+comment1.target=void\ updateView(FireCell[][])
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+numComments=3

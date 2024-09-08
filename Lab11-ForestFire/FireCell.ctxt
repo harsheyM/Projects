@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FireCell
+comment1.params=
+comment1.target=FireCell()
+comment2.params=
+comment2.target=int\ getStatus()
+comment3.params=n
+comment3.target=void\ setStatus(int)
+numComments=4

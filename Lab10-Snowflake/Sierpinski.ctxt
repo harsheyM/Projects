@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Sierpinski
+comment1.params=
+comment1.target=SierpinskiPanel()
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=g\ down\ hyp\ side\ height\ width
+comment3.target=void\ drawTriangle(java.awt.Graphics,\ Point,\ Point,\ Point,\ int,\ int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

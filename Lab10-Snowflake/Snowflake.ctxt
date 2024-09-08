@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Snowflake
+comment1.params=
+comment1.target=SnowFlakePanel()
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=g\ x\ y\ size
+comment3.target=void\ drawStar(java.awt.Graphics,\ int,\ int,\ int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
