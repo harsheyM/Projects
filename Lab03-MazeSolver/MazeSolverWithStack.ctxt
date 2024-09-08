@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MazeSolverWithStack
+comment1.params=maze
+comment1.target=MazeSolverWithStack(Maze)
+comment2.params=s
+comment2.target=void\ add(Square)
+comment3.params=
+comment3.target=void\ makeEmpty()
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment5.params=
+comment5.target=Square\ next()
+numComments=6

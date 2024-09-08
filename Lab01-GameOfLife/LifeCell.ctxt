@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LifeCell
+comment1.params=
+comment1.target=LifeCell()
+comment2.params=
+comment2.target=boolean\ isAliveNow()
+comment3.params=a
+comment3.target=void\ setAliveNow(boolean)
+comment4.params=
+comment4.target=boolean\ isAliveNext()
+comment5.params=a
+comment5.target=void\ setAliveNext(boolean)
+numComments=6
