@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Vertex
+comment1.params=ID\ x\ y
+comment1.target=Vertex(int,\ int,\ int)
+comment2.params=other
+comment2.target=double\ distance(Vertex)
+comment3.params=neighbor
+comment3.target=void\ addEdge(int)
+comment4.params=other
+comment4.target=int\ compareTo(Vertex)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

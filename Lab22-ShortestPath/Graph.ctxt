@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Graph
+comment1.params=console
+comment1.target=Graph(java.util.Scanner)
+comment2.params=from\ to
+comment2.target=double\ distance(int,\ int)
+numComments=3

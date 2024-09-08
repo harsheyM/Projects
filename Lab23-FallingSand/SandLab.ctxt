@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SandLab
+comment1.params=numRows\ numCols
+comment1.target=SandLab(int,\ int)
+comment2.params=row\ col\ tool
+comment2.target=void\ locationClicked(int,\ int,\ int)
+comment2.text=called\ when\ the\ user\ clicks\ on\ a\ location\ using\ the\ given\ tool
+comment3.params=
+comment3.target=void\ updateDisplay()
+comment3.text=copies\ each\ element\ of\ grid\ into\ the\ display
+comment4.params=
+comment4.target=void\ step()
+comment4.text=called\ repeatedly,\ causes\ one\ random\ particle\ to\ maybe\ do\ something
+comment5.params=
+comment5.target=void\ run()
+numComments=6
