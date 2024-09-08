@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=QueueProbs
+comment1.params=nums
+comment1.target=java.util.Queue\ evenFirst(java.util.Queue)
+comment2.params=nums
+comment2.target=boolean\ numPalindrome(java.util.Queue)
+comment3.params=n
+comment3.target=java.util.Stack\ sieveOfErato(int)
+numComments=4

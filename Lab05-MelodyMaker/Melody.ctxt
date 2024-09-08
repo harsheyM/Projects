@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Melody
+comment1.params=song
+comment1.target=Melody(java.util.Queue)
+comment2.params=
+comment2.target=double\ getTotalDuration()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=tempo
+comment4.target=void\ changeTempo(double)
+comment5.params=
+comment5.target=void\ reverse()
+comment6.params=other
+comment6.target=void\ append(Melody)
+comment7.params=
+comment7.target=void\ play()
+comment8.params=
+comment8.target=java.util.Queue\ getNotes()
+numComments=9

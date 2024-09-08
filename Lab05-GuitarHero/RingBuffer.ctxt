@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=RingBuffer
+comment1.params=capacity
+comment1.target=RingBuffer(int)
+comment1.text=\r\n\ create\ an\ empty\ buffer,\ with\ given\ max\ capacity\r\n
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\r\n\ return\ number\ of\ items\ currently\ in\ the\ buffer\r\n
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment3.text=\r\n\ is\ the\ buffer\ empty\ (size\ equals\ zero)?\r\n
+comment4.params=
+comment4.target=boolean\ isFull()
+comment4.text=\r\n\ is\ the\ buffer\ full\ (size\ equals\ array\ capacity)?\r\n
+comment5.params=x
+comment5.target=void\ enqueue(double)
+comment5.text=\r\n\ add\ item\ x\ to\ the\ end\r\n
+comment6.params=
+comment6.target=double\ dequeue()
+comment6.text=\r\n\ delete\ and\ return\ item\ from\ the\ front\r\n
+comment7.params=
+comment7.target=double\ peek()
+comment7.text=\r\n\ return\ (but\ do\ not\ delete)\ item\ from\ the\ front\r\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+comment8.text=a\ simple\ test\ of\ the\ constructor\ and\ methods\ in\ RingBuffer
+numComments=9

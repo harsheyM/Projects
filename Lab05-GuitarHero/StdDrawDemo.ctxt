@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=StdDrawDemo
+comment1.params=
+comment1.target=void\ drawSquare()
+comment1.text=draw\ a\ single\ blue\ square\ in\ the\ middle\ of\ the\ screen
+comment2.params=
+comment2.target=void\ drawCircleOnClick()
+comment2.text=draw\ a\ randomly\ colored\ circle\ at\ the\ location\ of\ the\ mouse\ click
+comment3.params=
+comment3.target=void\ spinningCircles()
+comment3.text=draw\ two\ red\ circles,\ spinning\ around\ in\ a\ circle.\ \ direction\ controlled\ by\ left\ and\ right\ arrows
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

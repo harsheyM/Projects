@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=GuitarString
+comment1.params=frequency
+comment1.target=GuitarString(double)
+comment1.text=create\ a\ guitar\ string\ of\ the\ given\ frequency
+comment2.params=init
+comment2.target=GuitarString(double[])
+comment2.text=create\ a\ guitar\ string\ with\ size\ &\ initial\ values\ given\ by\ the\ array
+comment3.params=
+comment3.target=void\ pluck()
+comment3.text=pluck\ the\ guitar\ string\ by\ replacing\ the\ buffer\ with\ white\ noise
+comment4.params=
+comment4.target=void\ tic()
+comment4.text=advance\ the\ simulation\ one\ time\ step
+comment5.params=
+comment5.target=double\ sample()
+comment5.text=return\ the\ current\ sample
+comment6.params=
+comment6.target=int\ time()
+comment6.text=return\ number\ of\ times\ tic\ was\ called
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
