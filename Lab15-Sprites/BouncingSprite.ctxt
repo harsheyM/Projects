@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BouncingSprite
+comment1.params=x\ y\ width\ height\ image\ vx\ vy
+comment1.target=BouncingSprite(double,\ double,\ int,\ int,\ java.lang.String,\ double,\ double)
+comment2.params=world
+comment2.target=void\ step(World)
+comment3.params=world
+comment3.target=void\ bounce(World)
+numComments=4
