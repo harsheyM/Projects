@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BoggleSolver
+comment1.params=dictionaryName
+comment1.target=BoggleSolver(java.lang.String)
+comment2.params=board
+comment2.target=java.lang.Iterable\ getAllValidWords(BoggleBoard)
+comment3.params=board\ recurCount\ maxPos
+comment3.target=java.lang.Iterable\ getAllValidWords(BoggleBoard,\ int,\ int)
+comment4.params=board\ x\ y\ word\ validWords\ visited\ maxRecurCount
+comment4.target=void\ getAllValidWords(BoggleBoard,\ int,\ int,\ java.lang.String,\ java.util.Set,\ boolean[][],\ int)
+comment5.params=seen\ board\ x\ y
+comment5.target=boolean\ inBounds(boolean[][],\ BoggleBoard,\ int,\ int)
+comment6.params=word
+comment6.target=int\ scoreOf(java.lang.String)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
