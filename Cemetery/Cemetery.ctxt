@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Cemetery
+comment1.params=fileName
+comment1.target=Cemetery(java.lang.String)
+comment2.params=
+comment2.target=double\ averageAge()
+comment3.params=ageString
+comment3.target=int\ parseAge(java.lang.String)
+comment3.text=\r\n\ convert\ the\ ageString\ to\ a\ number\ of\ days;\ age\ can\r\n\ take\ a\ variety\ of\ forms\ in\ the\ data\ file\r\n
+numComments=4

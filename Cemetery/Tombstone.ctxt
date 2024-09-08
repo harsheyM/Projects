@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Tombstone
+comment1.params=name\ burialDate\ age\ address
+comment1.target=Tombstone(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.lang.String\ getBurialDate()
+comment4.params=
+comment4.target=int\ getAge()
+comment5.params=
+comment5.target=java.lang.String\ getAddress()
+numComments=6
