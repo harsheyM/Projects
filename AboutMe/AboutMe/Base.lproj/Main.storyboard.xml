@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pql-sv-sRe">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="vAU-ae-hl1">
+                                <rect key="frame" x="20" y="109" width="353" height="70.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi, my name is Harshitha, but I go by Harshey" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2b-RI-JLO">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="19"/>
+                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm a senior at Heritage High School" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDr-TF-9rd">
+                                        <rect key="frame" x="0.0" y="49" width="353" height="21.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aDr-TF-9rd" firstAttribute="top" secondItem="n2b-RI-JLO" secondAttribute="bottom" constant="30" id="095-yl-rmq"/>
+                                    <constraint firstItem="n2b-RI-JLO" firstAttribute="top" secondItem="vAU-ae-hl1" secondAttribute="top" id="hEI-B6-3Fv"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Harshey" translatesAutoresizingMaskIntoConstraints="NO" id="3QF-nd-j7P">
+                                <rect key="frame" x="30" y="216" width="333" height="482"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.79663545790000001" green="0.9191600674" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3QF-nd-j7P" secondAttribute="bottom" constant="71" id="2nd-1q-SBU"/>
+                            <constraint firstItem="vAU-ae-hl1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Kr3-bq-ZTx"/>
+                            <constraint firstItem="vAU-ae-hl1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="VEp-3Z-cGI"/>
+                            <constraint firstItem="3QF-nd-j7P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="aJF-E2-hcT"/>
+                            <constraint firstItem="3QF-nd-j7P" firstAttribute="top" secondItem="vAU-ae-hl1" secondAttribute="bottom" constant="36.666666666666686" id="dsW-us-nYh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vAU-ae-hl1" secondAttribute="trailing" constant="20" id="ffu-ba-YZc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3QF-nd-j7P" secondAttribute="trailing" constant="30" id="nSD-Tr-4sL"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bio" image="book.pages.fill" catalog="system" selectedImage="book.pages.fill" id="avO-xJ-hdt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783.96946564885491" y="-416.19718309859155"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="YGF-wo-pk1">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Pql-sv-sRe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IEL-87-cih">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="bUa-D6-hEJ"/>
+                        <segue destination="x0M-50-Uet" kind="relationship" relationship="viewControllers" id="fh8-S6-NSb"/>
+                        <segue destination="4sy-kJ-55b" kind="relationship" relationship="viewControllers" id="flL-IL-Jm4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zeX-pp-5GL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-243.51145038167937" y="2.1126760563380285"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="Uu8-Yp-JZ9">
+            <objects>
+                <viewController id="x0M-50-Uet" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6XS-Mt-65i">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have two loving parents and a younger sister, the age of 14" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2j-j4-emU">
+                                <rect key="frame" x="40" y="290" width="313" height="50"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My sister's name is Purvi and is my favorite person in the world" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyK-gy-zyC">
+                                <rect key="frame" x="50" y="397" width="278" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="BE5-Ws-wnR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Family" translatesAutoresizingMaskIntoConstraints="NO" id="BMp-u4-E5c">
+                                <rect key="frame" x="77" y="118" width="239" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="8RZ-7d-4mU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DCx-Zt-vSf"/>
+                        <color key="backgroundColor" red="1" green="0.98025765860000003" blue="0.80627322690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="DCx-Zt-vSf" firstAttribute="bottom" secondItem="cyK-gy-zyC" secondAttribute="bottom" constant="237" id="JYJ-3i-0PJ"/>
+                            <constraint firstItem="BMp-u4-E5c" firstAttribute="leading" secondItem="DCx-Zt-vSf" secondAttribute="leading" constant="77" id="MFC-i6-hLN"/>
+                            <constraint firstItem="cyK-gy-zyC" firstAttribute="leading" secondItem="6XS-Mt-65i" secondAttribute="leading" constant="50" id="RJj-jz-tXW"/>
+                            <constraint firstItem="N2j-j4-emU" firstAttribute="leading" secondItem="DCx-Zt-vSf" secondAttribute="leading" constant="40" id="SNg-sd-tDI"/>
+                            <constraint firstItem="DCx-Zt-vSf" firstAttribute="trailing" secondItem="N2j-j4-emU" secondAttribute="trailing" constant="40" id="Xib-DG-GVB"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cyK-gy-zyC" secondAttribute="trailing" constant="20" symbolic="YES" id="iap-Ck-aH2"/>
+                            <constraint firstItem="cyK-gy-zyC" firstAttribute="top" secondItem="N2j-j4-emU" secondAttribute="bottom" constant="57" id="nox-Ng-7dC"/>
+                            <constraint firstItem="DCx-Zt-vSf" firstAttribute="trailing" secondItem="BMp-u4-E5c" secondAttribute="trailing" constant="77" id="pNF-6l-taI"/>
+                            <constraint firstItem="BMp-u4-E5c" firstAttribute="top" secondItem="DCx-Zt-vSf" secondAttribute="top" constant="59" id="vmO-qp-P5W"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="figure.2.and.child.holdinghands" catalog="system" selectedImage="figure.2.and.child.holdinghands" id="o8H-3K-63y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0dh-QC-PCp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783.96946564885491" y="245.77464788732397"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="zIO-Sb-Qf7">
+            <objects>
+                <viewController id="4sy-kJ-55b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y4h-jj-zVY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I love reading! I also enjoy singing, painting, and having fun with my friends!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iE-Zx-ptG">
+                                <rect key="frame" x="40" y="152" width="313" height="233"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fairytale" translatesAutoresizingMaskIntoConstraints="NO" id="AWb-oj-ZS1">
+                                <rect key="frame" x="76" y="337" width="240" height="237"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CPg-hM-EFP"/>
+                        <color key="backgroundColor" red="0.69955551140000005" green="0.85967152329999996" blue="0.71054308060000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="CPg-hM-EFP" firstAttribute="trailing" secondItem="1iE-Zx-ptG" secondAttribute="trailing" constant="40" id="2I6-Fh-s7N"/>
+                            <constraint firstItem="1iE-Zx-ptG" firstAttribute="leading" secondItem="CPg-hM-EFP" secondAttribute="leading" constant="40" id="WMP-LH-jg1"/>
+                            <constraint firstItem="CPg-hM-EFP" firstAttribute="bottom" secondItem="1iE-Zx-ptG" secondAttribute="bottom" constant="384" id="hgf-4S-ebr"/>
+                            <constraint firstItem="1iE-Zx-ptG" firstAttribute="top" secondItem="CPg-hM-EFP" secondAttribute="top" constant="93" id="lfG-Bp-hvS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="figure.badminton" catalog="system" selectedImage="figure.badminton" id="x2o-ZK-qu4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f8S-x8-MQo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49.618320610687022" y="795.77464788732402"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Fairytale" width="222" height="227"/>
+        <image name="Family" width="148" height="148"/>
+        <image name="Harshey" width="468" height="767"/>
+        <image name="book.pages.fill" catalog="system" width="107" height="128"/>
+        <image name="figure.2.and.child.holdinghands" catalog="system" width="128" height="93"/>
+        <image name="figure.badminton" catalog="system" width="118" height="128"/>
+    </resources>
+</document>
